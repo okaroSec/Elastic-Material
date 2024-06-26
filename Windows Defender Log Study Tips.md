@@ -84,6 +84,12 @@ To find logs where actions taken against threats were successful:
 winlog.provider_name: "Microsoft-Windows-Windows Defender" and winlog.event_data.ActionSuccess: "true"
 ```
 
+The hostname where the attacker is coming from.
+
+
+```bash
+winlog.event_data.WorkstationName
+```
 ## Reminders !
 
 - **Event Details**: Always check the message field for detailed information about each event.
