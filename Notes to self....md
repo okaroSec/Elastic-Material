@@ -1,7 +1,7 @@
 
 
 Sometimes a query won't work correctly if the `provider_name` is not included.
-
+- Keep a timeline of events this is the most important thing. For every important event make sure to keep track of the time
 - `winlog.event_data.Contents` can include command statements.
 - `winlog.event_data.QueryName` contains information regarding the domain name.
 - `winlog.event_data.ParentImage : *cmd.exe*` is very useful for checking executed commands.
