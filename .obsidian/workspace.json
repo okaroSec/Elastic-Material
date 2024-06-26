@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tracking Privilege Escalation and Lateral Movement.md",
+                "file": "Event IDs/Sysmon Event IDs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84655a698930c226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes to self....md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tracking Privilege Escalation and Lateral Movement.md",
+                "file": "Notes to self....md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tracking Privilege Escalation and Lateral Movement.md",
+                "file": "Notes to self....md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tracking Privilege Escalation and Lateral Movement.md"
+                "file": "Notes to self....md"
               }
             }
           }
@@ -195,18 +207,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "003cd321e58e721c",
+  "active": "38b4c16f57fc9afa",
   "lastOpenFiles": [
+    "Event IDs/Sysmon Event IDs.md",
+    "Notes to self....md",
+    "Sysmon Log Study Tips.md",
     "Uncovering Initial Access.md",
     "Tracking Privilege Escalation and Lateral Movement.md",
     "Windows Defender Log Study Tips.md",
-    "Sysmon Log Study Tips.md",
     "README.md",
     "Network Logs.md",
     "Event IDs/Window Security Event IDs.md",
     "Methodology For Investigation.md",
     "Event IDs/Window Defender Event IDs.md",
-    "Event IDs/Sysmon Event IDs.md",
     "Event IDs"
   ]
 }
