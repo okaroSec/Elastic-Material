@@ -10,6 +10,8 @@ Sometimes a query won't work correctly if the `provider_name` is not included.
 - To check for commands, use `winlog.provider_name: "Microsoft-Windows-Sysmon" and winlog.event_id: "1" and winlog.event_data.ParentImage: "C:\Windows\System32\cmd.exe"`.
 - Look for the earliest possible data of the executable and check `winlog.event_data.Image` to see how this file was downloaded.
 
+* (`winlog.event_data.Image`), the term “Image” is often used in Windows event logs to refer to the path of the executable file that was run. This could be a `.exe`, `.dll`
+
 Event ID 15: FileCreateStreamHash
 
 > This event logs when a named file stream is created, and it generates events that log the hash of the contents of the file to which the stream is assigned (the unnamed stream), as well as the contents of the named stream. Some malware variants drop their executables or configuration settings via browser downloads. This event captures that activity based on the browser attaching a Zone.Identifier "mark of the web" stream.

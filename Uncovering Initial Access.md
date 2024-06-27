@@ -27,7 +27,7 @@ Including these event IDs in your analysis can provide a more comprehensive view
      
 - **Event ID 4672**: Special privileges assigned to a new logon. This can be a sign of privilege escalation or that a high-privileged account has been compromised.  
      
-- **Event ID 4720**: Creation of a new user account, which could indicate unauthorized changes to system users and potential backdoor account creation by an attacker.
+- **Event ID 4720**: Creation of a new user account, which could indicate unauthorized changes to system users and potential backdoor account creation by an attacker. new-user
 
 
 This query helps identify potential brute-force attacks by detecting an abnormally large number of failed logon attempts.
