@@ -17,7 +17,7 @@
     - Captures detailed information about access to processes, useful for detecting unauthorized or suspicious process interactions.
 6. **Event ID 11: File Creation**
     
-    - Tracks the creation of files, which can be useful for detecting the presence of malware or unauthorized file modifications.
+    - Tracks the creation of files, which can be useful for detecting the presence of malware or unauthorized file modifications. File Created
 7. **Event ID 12: Registry Event (Object Create and Delete)**
     
     - Monitors creation and deletion of registry keys and values, useful for detecting persistence mechanisms used by malware.
